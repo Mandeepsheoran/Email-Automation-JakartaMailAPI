@@ -27,7 +27,7 @@ public class EmailAutomationUsingJavaMailAPI {
 		try {
 			// connect to message store
 			Store store = session.getStore("imap");
-			store.connect("imap.gmail.com", 993, "emailautomationtest23@gmail.com", "Hallo@123");
+			store.connect("imap.gmail.com", 993, "emailautomationtest23@gmail.com", "AIzaSyDfxhNZATfjUHwEQK75im89cKc_DG5jyIw");
 //	store.connect(<HOSTNAME>, <PORT>, <USERNAME>, <PASSWORD>);
 			// open the inbox folder
 			IMAPFolder inbox = (IMAPFolder) store.getFolder("INBOX");
@@ -60,6 +60,7 @@ public class EmailAutomationUsingJavaMailAPI {
 		props.setProperty("mail.imap.host", "imap.gmail.com");
 		props.setProperty("mail.imap.port", "993");
 		props.setProperty("mail.imap.ssl.enable", "true");
+		props.setProperty("mail.imap.auth.mechanisms", "XOAUTH2");
 		Session session = Session.getDefaultInstance(props, null);
 		session.setDebug(true);
 		System.out.println("Seesion value is :"+ session);

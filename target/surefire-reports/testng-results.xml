@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-27T15:11:10 GST" name="Suite" finished-at="2023-09-27T15:11:12 GST" duration-ms="1910">
+  <suite started-at="2023-09-27T16:21:11 GST" name="Suite" finished-at="2023-09-27T16:21:13 GST" duration-ms="2027">
     <groups>
     </groups>
-    <test started-at="2023-09-27T15:11:10 GST" name="Test" finished-at="2023-09-27T15:11:12 GST" duration-ms="1910">
+    <test started-at="2023-09-27T16:21:11 GST" name="Test" finished-at="2023-09-27T16:21:13 GST" duration-ms="2027">
       <class name="org.javamailapi.test.EmailAutomationUsingJavaMailAPI">
-        <test-method signature="readInboundEmails()[pri:0, instance:org.javamailapi.test.EmailAutomationUsingJavaMailAPI@2aece37d]" started-at="2023-09-27T15:11:10 GST" name="readInboundEmails" finished-at="2023-09-27T15:11:12 GST" duration-ms="1875" status="PASS">
+        <test-method signature="readInboundEmails()[pri:0, instance:org.javamailapi.test.EmailAutomationUsingJavaMailAPI@5762806e]" started-at="2023-09-27T16:21:11 GST" name="readInboundEmails" finished-at="2023-09-27T16:21:13 GST" duration-ms="1993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readInboundEmails -->
